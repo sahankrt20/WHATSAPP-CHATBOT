@@ -1,0 +1,17 @@
+cat > .gitignore << 'EOF'
+# Dependencies
+node_modules/
+
+# WhatsApp Web authentication
+.wwebjs_auth/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+EOF
